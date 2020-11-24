@@ -15,7 +15,7 @@ export default function Home({allPostData}) {
       <section className={utilStyles.headingMd}>
         <p>Magento, Wordpress fan...now moving to nextjs</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
+         deploying to vercel platform - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
