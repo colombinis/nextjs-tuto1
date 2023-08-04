@@ -26,7 +26,7 @@ export default function Home({allPostData}) {
         {allPostData.map( ({id,date,title}) => (
           <li key={id}>
             <Link href='/posts/[id]' as={`/posts/${id}`}>
-              <a>{title}</a>
+              <span>{title}</span>
             </Link>
             <br/>
             {id}
